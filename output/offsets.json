@@ -1,20 +1,20 @@
 {
   "client.dll": {
-    "dwEntityList": 27068984,
-    "dwGameEntitySystem": 28224552,
+    "dwEntityList": 27122008,
+    "dwGameEntitySystem": 28278216,
     "dwGameEntitySystem_highestEntityIndex": 5408,
-    "dwGameRules": 27453160,
-    "dwGlobalVars": 25337328,
-    "dwGlowManager": 27450912,
-    "dwLocalPlayerController": 27396464,
-    "dwLocalPlayerPawn": 25385912,
-    "dwPlantedC4": 27493152,
-    "dwPrediction": 25385552,
-    "dwSensitivity": 27456520,
+    "dwGameRules": 27505688,
+    "dwGlobalVars": 25386176,
+    "dwGlowManager": 27503448,
+    "dwLocalPlayerController": 27448720,
+    "dwLocalPlayerPawn": 25434856,
+    "dwPlantedC4": 27545680,
+    "dwPrediction": 25434496,
+    "dwSensitivity": 27509048,
     "dwSensitivity_sensitivity": 64,
-    "dwViewMatrix": 27471280,
-    "dwViewRender": 27473344,
-    "dwWeaponC4": 27082272
+    "dwViewMatrix": 27523808,
+    "dwViewRender": 27525872,
+    "dwWeaponC4": 27134944
   },
   "engine2.dll": {
     "dwBuildNumber": 5434324,
