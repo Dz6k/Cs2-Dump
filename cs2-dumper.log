@@ -1,6 +1,5 @@
-04:30:13 [INFO] found 16 buttons
-04:30:13 [INFO] found 130 interfaces across 33 modules
-04:30:13 [ERROR] outdated pattern: dwCSGOInput
-04:30:13 [INFO] found 31 offsets across 5 modules
-04:30:14 [INFO] found 2467 classes and 367 enums across 17 modules
-04:30:14 [INFO] analysis completed in 1.10s
+19:54:10 [INFO] found 16 buttons
+19:54:10 [INFO] found 130 interfaces across 33 modules
+19:54:11 [INFO] found 33 offsets across 5 modules
+19:54:11 [INFO] found 2467 classes and 367 enums across 17 modules
+19:54:11 [INFO] analysis completed in 1.07s
