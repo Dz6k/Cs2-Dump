@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-12-19 01:42:06.532298600 UTC
+// 2025-01-15 03:22:45.268581200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -3645,7 +3645,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bUnloadingStarted = 0x5A5; // bool
         }
         // Parent: CBaseEntity
-        // Field count: 24
+        // Field count: 23
         //
         // Metadata:
         // MNetworkIncludeByName
@@ -3679,9 +3679,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_fLerpTime = 0x5D8; // float32
             public const nint m_bLagCompensation = 0x5DC; // bool
             public const nint m_bPredict = 0x5DD; // bool
-            public const nint m_bAutoKickDisabled = 0x5DE; // bool
-            public const nint m_bIsLowViolence = 0x5DF; // bool
-            public const nint m_bGamePaused = 0x5E0; // bool
+            public const nint m_bIsLowViolence = 0x5E4; // bool
+            public const nint m_bGamePaused = 0x5E5; // bool
             public const nint m_iIgnoreGlobalChat = 0x720; // ChatIgnoreType_t
             public const nint m_flLastPlayerTalkTime = 0x724; // float32
             public const nint m_flLastEntitySteadyState = 0x728; // float32
