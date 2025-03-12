@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-15 03:22:45.268581200 UTC
+// 2025-03-12 02:32:23.776475700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: worldrenderer.dll
@@ -44,7 +44,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nCubeMapPrecomputedHandshake = 0x6C; // int32
             public const nint m_nLightProbeVolumePrecomputedHandshake = 0x70; // int32
             public const nint m_renderableModel = 0x78; // CStrongHandle<InfoForResourceTypeCModel>
-            public const nint m_renderable = 0x80; // CStrongHandle<InfoForResourceTypeCRenderMesh>
+            public const nint m_renderable = 0x80; // 
         }
         // Parent: None
         // Field count: 3

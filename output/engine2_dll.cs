@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-15 03:22:45.268581200 UTC
+// 2025-03-12 02:32:23.776475700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: engine2.dll
@@ -16,7 +16,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum EntityIOTargetType_t : uint {
-            ENTITY_IO_TARGET_INVALID = 0xFFFFFFFFFFFFFFFF,
+            ENTITY_IO_TARGET_INVALID = unchecked((uint)-1),
             ENTITY_IO_TARGET_ENTITYNAME = 0x2,
             ENTITY_IO_TARGET_EHANDLE = 0x6,
             ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME = 0x7
