@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 02:32:23.776475700 UTC
+// 2025-03-12 03:17:08.877032100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -855,7 +855,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_hOwner (CEntityHandle)
         // NetworkVarNames: m_name (CUtlStringToken)
         public static class CGameSceneNodeHandle {
-            public const nint m_hOwner = 0x8; // CEntityHandle
+            public const nint m_hOwner = 0x8; // 
             public const nint m_name = 0xC; // CUtlStringToken
         }
         // Parent: None
@@ -1400,8 +1400,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_vStart = 0x14; // Vector
             public const nint m_vNormal = 0x20; // Vector
             public const nint m_vAngles = 0x2C; // QAngle
-            public const nint m_hEntity = 0x38; // CEntityHandle
-            public const nint m_hOtherEntity = 0x3C; // CEntityHandle
+            public const nint m_hEntity = 0x38; // 
+            public const nint m_hOtherEntity = 0x3C; // 
             public const nint m_flScale = 0x40; // float32
             public const nint m_flMagnitude = 0x44; // float32
             public const nint m_flRadius = 0x48; // float32
@@ -2395,8 +2395,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_flSeqStartTime = 0x14B8; // GameTime_t
             public const nint m_flSeqFixedCycle = 0x14BC; // float32
             public const nint m_nAnimLoopMode = 0x14C0; // AnimLoopMode_t
-            public const nint m_flPlaybackRate = 0x14C4; // CNetworkedQuantizedFloat
-            public const nint m_nNotifyState = 0x14D0; // 
+            public const nint m_flPlaybackRate = 0x14C4; // 
+            public const nint m_nNotifyState = 0x14D0; // SequenceFinishNotifyState_t
             public const nint m_bNetworkedAnimationInputsChanged = 0x14D2; // bool
             public const nint m_bNetworkedSequenceChanged = 0x14D3; // bool
             public const nint m_bLastUpdateSkipped = 0x14D4; // bool
@@ -2575,7 +2575,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_sToolsOnlyOwnerModelName = 0x108; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
             public const nint m_bBuiltRightHanded = 0x1E8; // bool
             public const nint m_bAllowFlipping = 0x1E9; // bool
-            public const nint m_sMuzzleAttachment = 0x1F0; // CAttachmentNameSymbolWithStorage
+            public const nint m_sMuzzleAttachment = 0x1F0; // 
             public const nint m_szMuzzleFlashParticle = 0x210; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_bLinkedCooldowns = 0x2F0; // bool
             public const nint m_iFlags = 0x2F1; // ItemFlagTypes_t
@@ -2692,8 +2692,8 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_flDeathTime (GameTime_t)
         // NetworkVarNames: m_hController (CHandle<CBasePlayerController>)
         public static class C_BasePlayerPawn {
-            public const nint m_pWeaponServices = 0x11A8; // CPlayer_WeaponServices*
-            public const nint m_pItemServices = 0x11B0; // CPlayer_ItemServices*
+            public const nint m_pWeaponServices = 0x11A8; // 
+            public const nint m_pItemServices = 0x11B0; // 
             public const nint m_pAutoaimServices = 0x11B8; // CPlayer_AutoaimServices*
             public const nint m_pObserverServices = 0x11C0; // CPlayer_ObserverServices*
             public const nint m_pWaterServices = 0x11C8; // CPlayer_WaterServices*
@@ -3478,7 +3478,7 @@ namespace CS2Dumper.Schemas {
         public static class CPlayer_ObserverServices {
             public const nint m_iObserverMode = 0x40; // uint8
             public const nint m_hObserverTarget = 0x44; // CHandle<C_BaseEntity>
-            public const nint m_iObserverLastMode = 0x48; // ObserverMode_t
+            public const nint m_iObserverLastMode = 0x48; // 
             public const nint m_bForcedObserverMode = 0x4C; // bool
             public const nint m_flObserverChaseDistance = 0x50; // float32
             public const nint m_flObserverChaseDistanceCalcTime = 0x54; // GameTime_t
@@ -4031,11 +4031,11 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CBasePlayerVData {
             public const nint m_sModelName = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-            public const nint m_flHeadDamageMultiplier = 0x108; // CSkillFloat
-            public const nint m_flChestDamageMultiplier = 0x118; // CSkillFloat
-            public const nint m_flStomachDamageMultiplier = 0x128; // CSkillFloat
-            public const nint m_flArmDamageMultiplier = 0x138; // CSkillFloat
-            public const nint m_flLegDamageMultiplier = 0x148; // CSkillFloat
+            public const nint m_flHeadDamageMultiplier = 0x108; // 
+            public const nint m_flChestDamageMultiplier = 0x118; // 
+            public const nint m_flStomachDamageMultiplier = 0x128; // 
+            public const nint m_flArmDamageMultiplier = 0x138; // 
+            public const nint m_flLegDamageMultiplier = 0x148; // 
             public const nint m_flHoldBreathTime = 0x158; // float32
             public const nint m_flDrowningDamageInterval = 0x15C; // float32
             public const nint m_nDrowningDamageInitial = 0x160; // int32
@@ -4112,7 +4112,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_onSoundFinished = 0x5B0; // CEntityIOOutput
             public const nint m_flClientCullRadius = 0x5D8; // float32
             public const nint m_iszSoundName = 0x608; // CUtlSymbolLarge
-            public const nint m_hSource = 0x618; // CEntityHandle
+            public const nint m_hSource = 0x618; // 
             public const nint m_nEntityIndexSelection = 0x61C; // int32
             public const nint m_bClientSideOnly = 0x0; // bitfield:1
         }
@@ -5159,13 +5159,13 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_vCapsuleCenter2 (Vector)
         // NetworkVarNames: m_flCapsuleRadius (float)
         public static class CCollisionProperty {
-            public const nint m_collisionAttribute = 0x10; // 
+            public const nint m_collisionAttribute = 0x10; // VPhysicsCollisionAttribute_t
             public const nint m_vecMins = 0x40; // Vector
             public const nint m_vecMaxs = 0x4C; // Vector
             public const nint m_usSolidFlags = 0x5A; // uint8
-            public const nint m_nSolidType = 0x5B; // 
+            public const nint m_nSolidType = 0x5B; // SolidType_t
             public const nint m_triggerBloat = 0x5C; // uint8
-            public const nint m_nSurroundType = 0x5D; // 
+            public const nint m_nSurroundType = 0x5D; // SurroundingBoundsType_t
             public const nint m_CollisionGroup = 0x5E; // uint8
             public const nint m_nEnablePhysics = 0x5F; // uint8
             public const nint m_flBoundingRadius = 0x60; // float32
@@ -5188,7 +5188,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_hSequence = 0x8; // HSequence
             public const nint m_flPrevCycle = 0xC; // float32
             public const nint m_flCycle = 0x10; // float32
-            public const nint m_flWeight = 0x14; // CNetworkedQuantizedFloat
+            public const nint m_flWeight = 0x14; // 
             public const nint m_bSequenceChangeNetworked = 0x1C; // bool
             public const nint m_bDiscontinuity = 0x1D; // bool
             public const nint m_flPrevCycleFromDiscontinuity = 0x20; // float32
@@ -5503,7 +5503,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nCost = 0x34; // int32
             public const nint m_nPrevArmor = 0x38; // int32
             public const nint m_bPrevHelmet = 0x3C; // bool
-            public const nint m_hItem = 0x40; // CEntityHandle
+            public const nint m_hItem = 0x40; // 
         }
         // Parent: C_GameRules
         // Field count: 0
@@ -5705,7 +5705,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_lastSmokeTime = 0x1900; // GameTime_t
             public const nint m_flNextClientFireBulletTime = 0x1904; // float32
             public const nint m_flNextClientFireBulletTime_Repredict = 0x1908; // float32
-            public const nint m_IronSightController = 0x19E0; // C_IronSightController
+            public const nint m_IronSightController = 0x19E0; // 
             public const nint m_iIronSightMode = 0x1A90; // int32
             public const nint m_flLastLOSTraceFailureTime = 0x1AA0; // GameTime_t
             public const nint m_iNumEmptyAttacks = 0x1AA4; // int32
@@ -5849,9 +5849,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecBaseVelocity = 0x430; // Vector
             public const nint m_hEffectEntity = 0x43C; // CHandle<C_BaseEntity>
             public const nint m_hOwnerEntity = 0x440; // CHandle<C_BaseEntity>
-            public const nint m_MoveCollide = 0x444; // 
-            public const nint m_MoveType = 0x445; // 
-            public const nint m_nActualMoveType = 0x446; // 
+            public const nint m_MoveCollide = 0x444; // MoveCollide_t
+            public const nint m_MoveType = 0x445; // MoveType_t
+            public const nint m_nActualMoveType = 0x446; // MoveType_t
             public const nint m_flWaterLevel = 0x448; // float32
             public const nint m_fEffects = 0x44C; // uint32
             public const nint m_hGroundEntity = 0x450; // CHandle<C_BaseEntity>
@@ -6365,7 +6365,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bLocked = 0x123D; // bool
             public const nint m_closedPosition = 0x1240; // Vector
             public const nint m_closedAngles = 0x124C; // QAngle
-            public const nint m_hMaster = 0x1258; // CHandle<C_BasePropDoor>
+            public const nint m_hMaster = 0x1258; // 
             public const nint m_vWhereToSetLightingOrigin = 0x125C; // Vector
         }
         // Parent: C_CSGO_TeamSelectCharacterPosition
@@ -6631,7 +6631,7 @@ namespace CS2Dumper.Schemas {
         // MNetworkVarTypeOverride
         // MNetworkIncludeByName
         public static class C_CSObserverPawn {
-            public const nint m_hDetectParentChange = 0x1510; // CEntityHandle
+            public const nint m_hDetectParentChange = 0x1510; // 
         }
         // Parent: C_BaseEntity
         // Field count: 3
@@ -6655,7 +6655,7 @@ namespace CS2Dumper.Schemas {
         // Parent: CPlayer_ObserverServices
         // Field count: 8
         public static class CCSObserver_ObserverServices {
-            public const nint m_hLastObserverTarget = 0x58; // CEntityHandle
+            public const nint m_hLastObserverTarget = 0x58; // 
             public const nint m_vecObserverInterpolateOffset = 0x5C; // Vector
             public const nint m_vecObserverInterpStartPos = 0x68; // Vector
             public const nint m_flObsInterp_PathLength = 0x74; // float32
@@ -6877,7 +6877,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: qAngle (QAngle)
         // NetworkVarNames: nIndex (uint32)
         public static class ViewAngleServerChange_t {
-            public const nint nType = 0x30; // FixAngleSet_t
+            public const nint nType = 0x30; // 
             public const nint qAngle = 0x34; // QAngle
             public const nint nIndex = 0x40; // uint32
         }

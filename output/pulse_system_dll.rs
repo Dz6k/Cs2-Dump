@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 02:32:23.776475700 UTC
+// 2025-03-12 03:17:08.877032100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -228,8 +228,8 @@ pub mod cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             pub mod CPulseCell_Test_MultiOutflow_WithParams {
-                pub const m_Out1: usize = 0x48; // SignatureOutflow_Continue
-                pub const m_Out2: usize = 0x78; // SignatureOutflow_Continue
+                pub const m_Out1: usize = 0x48; // 
+                pub const m_Out2: usize = 0x78; // 
             }
             // Parent: None
             // Field count: 1
@@ -300,7 +300,7 @@ pub mod cs2_dumper {
                 pub const m_flTimeFromPrevious: usize = 0x0; // float32
                 pub const m_bPauseForPreviousEvents: usize = 0x4; // bool
                 pub const m_bCallModeSync: usize = 0x5; // bool
-                pub const m_EventOutflow: usize = 0x8; // 
+                pub const m_EventOutflow: usize = 0x8; // CPulse_OutflowConnection
             }
             // Parent: None
             // Field count: 4
@@ -480,7 +480,7 @@ pub mod cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             pub mod CPulseCell_Outflow_StringSwitch {
-                pub const m_DefaultCaseOutflow: usize = 0x48; // 
+                pub const m_DefaultCaseOutflow: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_CaseOutflows: usize = 0x78; // CUtlVector<CPulse_OutflowConnection>
             }
             // Parent: CPulseCell_BaseFlow
@@ -824,7 +824,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod PulseNodeDynamicOutflows_t__DynamicOutflow_t {
                 pub const m_OutflowID: usize = 0x0; // CGlobalSymbol
-                pub const m_Connection: usize = 0x8; // 
+                pub const m_Connection: usize = 0x8; // CPulse_OutflowConnection
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 1
@@ -920,11 +920,11 @@ pub mod cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             pub mod CPulseCell_Test_MultiOutflow_WithParams_Yielding {
-                pub const m_Out1: usize = 0x48; // SignatureOutflow_Continue
-                pub const m_AsyncChild1: usize = 0x78; // SignatureOutflow_Continue
-                pub const m_AsyncChild2: usize = 0xA8; // SignatureOutflow_Continue
-                pub const m_YieldResume1: usize = 0xD8; // SignatureOutflow_Resume
-                pub const m_YieldResume2: usize = 0x108; // SignatureOutflow_Resume
+                pub const m_Out1: usize = 0x48; // 
+                pub const m_AsyncChild1: usize = 0x78; // 
+                pub const m_AsyncChild2: usize = 0xA8; // 
+                pub const m_YieldResume1: usize = 0xD8; // 
+                pub const m_YieldResume2: usize = 0x108; // 
             }
             // Parent: CPulseGraphInstance_TestDomain
             // Field count: 1
@@ -1070,7 +1070,7 @@ pub mod cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             pub mod CPulseCell_Outflow_IntSwitch {
-                pub const m_DefaultCaseOutflow: usize = 0x48; // 
+                pub const m_DefaultCaseOutflow: usize = 0x48; // CPulse_OutflowConnection
                 pub const m_CaseOutflows: usize = 0x78; // CUtlVector<CPulse_OutflowConnection>
             }
             // Parent: None
@@ -1161,8 +1161,8 @@ pub mod cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             pub mod CPulseCell_Outflow_TestExplicitYesNo {
-                pub const m_Yes: usize = 0x48; // 
-                pub const m_No: usize = 0x78; // 
+                pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
+                pub const m_No: usize = 0x78; // CPulse_OutflowConnection
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 2
@@ -1175,8 +1175,8 @@ pub mod cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             pub mod CPulseCell_Outflow_TestRandomYesNo {
-                pub const m_Yes: usize = 0x48; // 
-                pub const m_No: usize = 0x78; // 
+                pub const m_Yes: usize = 0x48; // CPulse_OutflowConnection
+                pub const m_No: usize = 0x78; // CPulse_OutflowConnection
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 0

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 02:32:23.776475700 UTC
+// 2025-03-12 03:17:08.877032100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -3962,7 +3962,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_LockToPointList {
                 pub const m_nFieldOutput: usize = 0x1C0; // ParticleAttributeIndex_t
-                pub const m_pointList: usize = 0x1C8; // CUtlVector<PointDefinition_t>
+                pub const m_pointList: usize = 0x1C8; // 
                 pub const m_bPlaceAlongPath: usize = 0x1E0; // bool
                 pub const m_bClosedLoop: usize = 0x1E1; // bool
                 pub const m_nNumPointsAlongPath: usize = 0x1E4; // int32
@@ -5902,7 +5902,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_INIT_PointList {
                 pub const m_nFieldOutput: usize = 0x1C8; // ParticleAttributeIndex_t
-                pub const m_pointList: usize = 0x1D0; // CUtlVector<PointDefinition_t>
+                pub const m_pointList: usize = 0x1D0; // 
                 pub const m_bPlaceAlongPath: usize = 0x1E8; // bool
                 pub const m_bClosedLoop: usize = 0x1E9; // bool
                 pub const m_nNumPointsAlongPath: usize = 0x1EC; // int32
