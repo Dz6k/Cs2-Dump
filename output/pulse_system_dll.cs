@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 03:17:08.877032100 UTC
+// 2025-03-21 17:36:54.908946500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -216,8 +216,8 @@ namespace CS2Dumper.Schemas {
         // MPulseCellMethodBindings
         // MPulseCellOutflowHookInfo
         public static class CPulseCell_Test_MultiOutflow_WithParams {
-            public const nint m_Out1 = 0x48; // 
-            public const nint m_Out2 = 0x78; // 
+            public const nint m_Out1 = 0x48; // SignatureOutflow_Continue
+            public const nint m_Out2 = 0x78; // SignatureOutflow_Continue
         }
         // Parent: None
         // Field count: 1
@@ -288,7 +288,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flTimeFromPrevious = 0x0; // float32
             public const nint m_bPauseForPreviousEvents = 0x4; // bool
             public const nint m_bCallModeSync = 0x5; // bool
-            public const nint m_EventOutflow = 0x8; // CPulse_OutflowConnection
+            public const nint m_EventOutflow = 0x8; // 
         }
         // Parent: None
         // Field count: 4
@@ -468,7 +468,7 @@ namespace CS2Dumper.Schemas {
         // MPulseCellMethodBindings
         // MPulseCellOutflowHookInfo
         public static class CPulseCell_Outflow_StringSwitch {
-            public const nint m_DefaultCaseOutflow = 0x48; // CPulse_OutflowConnection
+            public const nint m_DefaultCaseOutflow = 0x48; // 
             public const nint m_CaseOutflows = 0x78; // CUtlVector<CPulse_OutflowConnection>
         }
         // Parent: CPulseCell_BaseFlow
@@ -685,7 +685,7 @@ namespace CS2Dumper.Schemas {
         public static class CPulseGraphExecutionHistory {
             public const nint m_nInstanceID = 0x0; // PulseGraphInstanceID_t
             public const nint m_strFileName = 0x8; // CUtlString
-            public const nint m_vecHistory = 0x10; // CUtlVector<PulseGraphExecutionHistoryEntry_t*>
+            public const nint m_vecHistory = 0x10; // 
             public const nint m_mapCellDesc = 0x28; // CUtlOrderedMap<PulseDocNodeID_t,PulseGraphExecutionHistoryNodeDesc_t*>
             public const nint m_mapCursorDesc = 0x50; // CUtlOrderedMap<PulseCursorID_t,PulseGraphExecutionHistoryCursorDesc_t*>
         }
@@ -812,7 +812,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class PulseNodeDynamicOutflows_t__DynamicOutflow_t {
             public const nint m_OutflowID = 0x0; // CGlobalSymbol
-            public const nint m_Connection = 0x8; // CPulse_OutflowConnection
+            public const nint m_Connection = 0x8; // 
         }
         // Parent: CPulseCell_BaseFlow
         // Field count: 1
@@ -908,11 +908,11 @@ namespace CS2Dumper.Schemas {
         // MPulseCellMethodBindings
         // MPulseCellOutflowHookInfo
         public static class CPulseCell_Test_MultiOutflow_WithParams_Yielding {
-            public const nint m_Out1 = 0x48; // 
-            public const nint m_AsyncChild1 = 0x78; // 
-            public const nint m_AsyncChild2 = 0xA8; // 
-            public const nint m_YieldResume1 = 0xD8; // 
-            public const nint m_YieldResume2 = 0x108; // 
+            public const nint m_Out1 = 0x48; // SignatureOutflow_Continue
+            public const nint m_AsyncChild1 = 0x78; // SignatureOutflow_Continue
+            public const nint m_AsyncChild2 = 0xA8; // SignatureOutflow_Continue
+            public const nint m_YieldResume1 = 0xD8; // SignatureOutflow_Resume
+            public const nint m_YieldResume2 = 0x108; // SignatureOutflow_Resume
         }
         // Parent: CPulseGraphInstance_TestDomain
         // Field count: 1
@@ -1058,7 +1058,7 @@ namespace CS2Dumper.Schemas {
         // MPulseCellMethodBindings
         // MPulseCellOutflowHookInfo
         public static class CPulseCell_Outflow_IntSwitch {
-            public const nint m_DefaultCaseOutflow = 0x48; // CPulse_OutflowConnection
+            public const nint m_DefaultCaseOutflow = 0x48; // 
             public const nint m_CaseOutflows = 0x78; // CUtlVector<CPulse_OutflowConnection>
         }
         // Parent: None
@@ -1149,8 +1149,8 @@ namespace CS2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         public static class CPulseCell_Outflow_TestExplicitYesNo {
-            public const nint m_Yes = 0x48; // CPulse_OutflowConnection
-            public const nint m_No = 0x78; // CPulse_OutflowConnection
+            public const nint m_Yes = 0x48; // 
+            public const nint m_No = 0x78; // 
         }
         // Parent: CPulseCell_BaseFlow
         // Field count: 2
@@ -1163,8 +1163,8 @@ namespace CS2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         public static class CPulseCell_Outflow_TestRandomYesNo {
-            public const nint m_Yes = 0x48; // CPulse_OutflowConnection
-            public const nint m_No = 0x78; // CPulse_OutflowConnection
+            public const nint m_Yes = 0x48; // 
+            public const nint m_No = 0x78; // 
         }
         // Parent: CPulseCell_BaseFlow
         // Field count: 0

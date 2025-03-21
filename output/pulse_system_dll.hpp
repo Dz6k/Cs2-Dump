@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-12 03:17:08.877032100 UTC
+// 2025-03-21 17:36:54.908946500 UTC
 
 #pragma once
 
@@ -221,8 +221,8 @@ namespace cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             namespace CPulseCell_Test_MultiOutflow_WithParams {
-                constexpr std::ptrdiff_t m_Out1 = 0x48; // 
-                constexpr std::ptrdiff_t m_Out2 = 0x78; // 
+                constexpr std::ptrdiff_t m_Out1 = 0x48; // SignatureOutflow_Continue
+                constexpr std::ptrdiff_t m_Out2 = 0x78; // SignatureOutflow_Continue
             }
             // Parent: None
             // Field count: 1
@@ -293,7 +293,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flTimeFromPrevious = 0x0; // float32
                 constexpr std::ptrdiff_t m_bPauseForPreviousEvents = 0x4; // bool
                 constexpr std::ptrdiff_t m_bCallModeSync = 0x5; // bool
-                constexpr std::ptrdiff_t m_EventOutflow = 0x8; // CPulse_OutflowConnection
+                constexpr std::ptrdiff_t m_EventOutflow = 0x8; // 
             }
             // Parent: None
             // Field count: 4
@@ -473,7 +473,7 @@ namespace cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             namespace CPulseCell_Outflow_StringSwitch {
-                constexpr std::ptrdiff_t m_DefaultCaseOutflow = 0x48; // CPulse_OutflowConnection
+                constexpr std::ptrdiff_t m_DefaultCaseOutflow = 0x48; // 
                 constexpr std::ptrdiff_t m_CaseOutflows = 0x78; // CUtlVector<CPulse_OutflowConnection>
             }
             // Parent: CPulseCell_BaseFlow
@@ -690,7 +690,7 @@ namespace cs2_dumper {
             namespace CPulseGraphExecutionHistory {
                 constexpr std::ptrdiff_t m_nInstanceID = 0x0; // PulseGraphInstanceID_t
                 constexpr std::ptrdiff_t m_strFileName = 0x8; // CUtlString
-                constexpr std::ptrdiff_t m_vecHistory = 0x10; // CUtlVector<PulseGraphExecutionHistoryEntry_t*>
+                constexpr std::ptrdiff_t m_vecHistory = 0x10; // 
                 constexpr std::ptrdiff_t m_mapCellDesc = 0x28; // CUtlOrderedMap<PulseDocNodeID_t,PulseGraphExecutionHistoryNodeDesc_t*>
                 constexpr std::ptrdiff_t m_mapCursorDesc = 0x50; // CUtlOrderedMap<PulseCursorID_t,PulseGraphExecutionHistoryCursorDesc_t*>
             }
@@ -817,7 +817,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace PulseNodeDynamicOutflows_t__DynamicOutflow_t {
                 constexpr std::ptrdiff_t m_OutflowID = 0x0; // CGlobalSymbol
-                constexpr std::ptrdiff_t m_Connection = 0x8; // CPulse_OutflowConnection
+                constexpr std::ptrdiff_t m_Connection = 0x8; // 
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 1
@@ -913,11 +913,11 @@ namespace cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             namespace CPulseCell_Test_MultiOutflow_WithParams_Yielding {
-                constexpr std::ptrdiff_t m_Out1 = 0x48; // 
-                constexpr std::ptrdiff_t m_AsyncChild1 = 0x78; // 
-                constexpr std::ptrdiff_t m_AsyncChild2 = 0xA8; // 
-                constexpr std::ptrdiff_t m_YieldResume1 = 0xD8; // 
-                constexpr std::ptrdiff_t m_YieldResume2 = 0x108; // 
+                constexpr std::ptrdiff_t m_Out1 = 0x48; // SignatureOutflow_Continue
+                constexpr std::ptrdiff_t m_AsyncChild1 = 0x78; // SignatureOutflow_Continue
+                constexpr std::ptrdiff_t m_AsyncChild2 = 0xA8; // SignatureOutflow_Continue
+                constexpr std::ptrdiff_t m_YieldResume1 = 0xD8; // SignatureOutflow_Resume
+                constexpr std::ptrdiff_t m_YieldResume2 = 0x108; // SignatureOutflow_Resume
             }
             // Parent: CPulseGraphInstance_TestDomain
             // Field count: 1
@@ -1063,7 +1063,7 @@ namespace cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             namespace CPulseCell_Outflow_IntSwitch {
-                constexpr std::ptrdiff_t m_DefaultCaseOutflow = 0x48; // CPulse_OutflowConnection
+                constexpr std::ptrdiff_t m_DefaultCaseOutflow = 0x48; // 
                 constexpr std::ptrdiff_t m_CaseOutflows = 0x78; // CUtlVector<CPulse_OutflowConnection>
             }
             // Parent: None
@@ -1154,8 +1154,8 @@ namespace cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             namespace CPulseCell_Outflow_TestExplicitYesNo {
-                constexpr std::ptrdiff_t m_Yes = 0x48; // CPulse_OutflowConnection
-                constexpr std::ptrdiff_t m_No = 0x78; // CPulse_OutflowConnection
+                constexpr std::ptrdiff_t m_Yes = 0x48; // 
+                constexpr std::ptrdiff_t m_No = 0x78; // 
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 2
@@ -1168,8 +1168,8 @@ namespace cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             namespace CPulseCell_Outflow_TestRandomYesNo {
-                constexpr std::ptrdiff_t m_Yes = 0x48; // CPulse_OutflowConnection
-                constexpr std::ptrdiff_t m_No = 0x78; // CPulse_OutflowConnection
+                constexpr std::ptrdiff_t m_Yes = 0x48; // 
+                constexpr std::ptrdiff_t m_No = 0x78; // 
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 0
