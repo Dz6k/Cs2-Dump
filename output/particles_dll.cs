@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-21 17:36:54.908946500 UTC
+// 2025-04-01 02:26:56.357514500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -2315,7 +2315,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MParticleCustomFieldDefaultValue
         public static class CParticleVecInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
             public const nint m_LiteralColor = 0x20; // Color
             public const nint m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -2714,7 +2714,7 @@ namespace CS2Dumper.Schemas {
         public static class ParticleNamedValueSource_t {
             public const nint m_Name = 0x0; // CUtlString
             public const nint m_IsPublic = 0x8; // bool
-            public const nint m_ValueType = 0xC; // 
+            public const nint m_ValueType = 0xC; // PulseValueType_t
             public const nint m_DefaultConfig = 0x10; // ParticleNamedValueConfiguration_t
             public const nint m_NamedConfigs = 0x48; // CUtlVector<ParticleNamedValueConfiguration_t>
         }
@@ -3666,7 +3666,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         public static class CParticleVariableRef {
             public const nint m_variableName = 0x0; // CKV3MemberNameWithStorage
-            public const nint m_variableType = 0x38; // 
+            public const nint m_variableType = 0x38; // PulseValueType_t
         }
         // Parent: CParticleFunctionOperator
         // Field count: 6
@@ -5769,7 +5769,7 @@ namespace CS2Dumper.Schemas {
         // MParticleCustomFieldDefaultValue
         public static class CParticleFloatInput {
             public const nint m_nType = 0x10; // ParticleFloatType_t
-            public const nint m_nMapType = 0x14; // ParticleFloatMapType_t
+            public const nint m_nMapType = 0x14; // 
             public const nint m_flLiteralValue = 0x18; // float32
             public const nint m_NamedValue = 0x20; // CParticleNamedValueRef
             public const nint m_nControlPoint = 0x60; // int32

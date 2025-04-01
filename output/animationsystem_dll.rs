@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-21 17:36:54.908946500 UTC
+// 2025-04-01 02:26:56.357514500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1824,7 +1824,7 @@ pub mod cs2_dumper {
             pub mod CFootPinningUpdateNode {
                 pub const m_poseOpFixedData: usize = 0x70; // FootPinningPoseOpFixedData_t
                 pub const m_eTimingSource: usize = 0xA0; // FootPinningTimingSource
-                pub const m_params: usize = 0xA8; // 
+                pub const m_params: usize = 0xA8; // CUtlVector<CAnimParamHandle>
                 pub const m_bResetChild: usize = 0xC0; // bool
             }
             // Parent: None
@@ -2778,10 +2778,10 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CRagdollComponentUpdater {
-                pub const m_ragdollNodePaths: usize = 0x30; // 
+                pub const m_ragdollNodePaths: usize = 0x30; // CUtlVector<CAnimNodePath>
                 pub const m_boneIndices: usize = 0x48; // CUtlVector<int32>
                 pub const m_boneNames: usize = 0x60; // CUtlVector<CUtlString>
-                pub const m_weightLists: usize = 0x78; // 
+                pub const m_weightLists: usize = 0x78; // CUtlVector<WeightList>
                 pub const m_flSpringFrequencyMin: usize = 0x90; // float32
                 pub const m_flSpringFrequencyMax: usize = 0x94; // float32
                 pub const m_flMaxStretch: usize = 0x98; // float32
@@ -2857,7 +2857,7 @@ pub mod cs2_dumper {
                 pub const m_paramX: usize = 0xD4; // CAnimParamHandle
                 pub const m_blendSourceY: usize = 0xD8; // AnimValueSource
                 pub const m_paramY: usize = 0xDC; // CAnimParamHandle
-                pub const m_eBlendMode: usize = 0xE0; // Blend2DMode
+                pub const m_eBlendMode: usize = 0xE0; // 
                 pub const m_playbackSpeed: usize = 0xE4; // float32
                 pub const m_bLoop: usize = 0xE8; // bool
                 pub const m_bLockBlendOnReset: usize = 0xE9; // bool
@@ -3835,7 +3835,7 @@ pub mod cs2_dumper {
                 pub const m_parameters: usize = 0x18; // CUtlVector<CSmartPtr<CAnimParameterBase>>
                 pub const m_idToIndexMap: usize = 0x30; // CUtlHashtable<AnimParamID,int32>
                 pub const m_nameToIndexMap: usize = 0x50; // CUtlHashtable<CUtlString,int32>
-                pub const m_indexToHandle: usize = 0x70; // 
+                pub const m_indexToHandle: usize = 0x70; // CUtlVector<CAnimParamHandle>
                 pub const m_autoResetParams: usize = 0x88; // CUtlVector<CUtlPair<CAnimParamHandle,CAnimVariant>>
                 pub const m_autoResetMap: usize = 0xA0; // CUtlHashtable<CAnimParamHandle,int16>
             }
@@ -4016,7 +4016,7 @@ pub mod cs2_dumper {
                 pub const m_bMoveVarsDisabled: usize = 0x68; // bool
                 pub const m_bNetworkPath: usize = 0x69; // bool
                 pub const m_bNetworkFacing: usize = 0x6A; // bool
-                pub const m_paramHandles: usize = 0x6B; // CAnimParamHandle[30]
+                pub const m_paramHandles: usize = 0x6B; // 
             }
             // Parent: CModelConfigElement
             // Field count: 1
@@ -4841,7 +4841,7 @@ pub mod cs2_dumper {
                 pub const m_sceneObjects: usize = 0x10; // CUtlLeanVectorFixedGrowable<CSceneObjectData,1>
                 pub const m_constraints: usize = 0x78; // CUtlLeanVector<CBaseConstraint*>
                 pub const m_skeleton: usize = 0x88; // CRenderSkeleton
-                pub const m_meshDeformParams: usize = 0x1A8; // 
+                pub const m_meshDeformParams: usize = 0x1A8; // DynamicMeshDeformParams_t
                 pub const m_pGroomData: usize = 0x1B8; // CRenderGroom*
             }
             // Parent: None
@@ -5001,7 +5001,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod ScriptInfo_t {
                 pub const m_code: usize = 0x0; // CUtlString
-                pub const m_paramsModified: usize = 0x8; // 
+                pub const m_paramsModified: usize = 0x8; // CUtlVector<CAnimParamHandle>
                 pub const m_proxyReadParams: usize = 0x20; // CUtlVector<int32>
                 pub const m_proxyWriteParams: usize = 0x38; // CUtlVector<int32>
                 pub const m_eScriptType: usize = 0x50; // AnimScriptType
@@ -5250,8 +5250,8 @@ pub mod cs2_dumper {
                 pub const m_name: usize = 0x0; // CBufferString
                 pub const m_flags: usize = 0x10; // CAnimDesc_Flag
                 pub const fps: usize = 0x18; // float32
-                pub const m_Data: usize = 0x20; // CAnimEncodedFrames
-                pub const m_movementArray: usize = 0xF8; // CUtlVector<CAnimMovement>
+                pub const m_Data: usize = 0x20; // 
+                pub const m_movementArray: usize = 0xF8; // 
                 pub const m_xInitialOffset: usize = 0x110; // CTransform
                 pub const m_eventArray: usize = 0x130; // CUtlVector<CAnimEventDefinition>
                 pub const m_activityArray: usize = 0x148; // CUtlVector<CAnimActivity>
@@ -5261,7 +5261,7 @@ pub mod cs2_dumper {
                 pub const m_vecRootMax: usize = 0x188; // Vector
                 pub const m_vecBoneWorldMin: usize = 0x198; // CUtlVector<Vector>
                 pub const m_vecBoneWorldMax: usize = 0x1B0; // CUtlVector<Vector>
-                pub const m_sequenceParams: usize = 0x1C8; // CAnimSequenceParams
+                pub const m_sequenceParams: usize = 0x1C8; // 
             }
             // Parent: CNmPassthroughNode__CDefinition
             // Field count: 7
@@ -5528,7 +5528,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CPoseHandle {
                 pub const m_nIndex: usize = 0x0; // uint16
-                pub const m_eType: usize = 0x2; // PoseType_t
+                pub const m_eType: usize = 0x2; // 
             }
             // Parent: CNmIDValueNode__CDefinition
             // Field count: 2
@@ -6204,7 +6204,7 @@ pub mod cs2_dumper {
             pub mod CBinaryUpdateNode {
                 pub const m_pChild1: usize = 0x58; // CAnimUpdateNodeRef
                 pub const m_pChild2: usize = 0x68; // CAnimUpdateNodeRef
-                pub const m_timingBehavior: usize = 0x78; // 
+                pub const m_timingBehavior: usize = 0x78; // BinaryNodeTiming
                 pub const m_flTimingBlend: usize = 0x7C; // float32
                 pub const m_bResetChild1: usize = 0x80; // bool
                 pub const m_bResetChild2: usize = 0x81; // bool

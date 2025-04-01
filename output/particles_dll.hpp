@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-21 17:36:54.908946500 UTC
+// 2025-04-01 02:26:56.357514500 UTC
 
 #pragma once
 
@@ -2320,7 +2320,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             namespace CParticleVecInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // 
+                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleVecType_t
                 constexpr std::ptrdiff_t m_vLiteralValue = 0x14; // Vector
                 constexpr std::ptrdiff_t m_LiteralColor = 0x20; // Color
                 constexpr std::ptrdiff_t m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -2719,7 +2719,7 @@ namespace cs2_dumper {
             namespace ParticleNamedValueSource_t {
                 constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_IsPublic = 0x8; // bool
-                constexpr std::ptrdiff_t m_ValueType = 0xC; // 
+                constexpr std::ptrdiff_t m_ValueType = 0xC; // PulseValueType_t
                 constexpr std::ptrdiff_t m_DefaultConfig = 0x10; // ParticleNamedValueConfiguration_t
                 constexpr std::ptrdiff_t m_NamedConfigs = 0x48; // CUtlVector<ParticleNamedValueConfiguration_t>
             }
@@ -3671,7 +3671,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             namespace CParticleVariableRef {
                 constexpr std::ptrdiff_t m_variableName = 0x0; // CKV3MemberNameWithStorage
-                constexpr std::ptrdiff_t m_variableType = 0x38; // 
+                constexpr std::ptrdiff_t m_variableType = 0x38; // PulseValueType_t
             }
             // Parent: CParticleFunctionOperator
             // Field count: 6
@@ -5774,7 +5774,7 @@ namespace cs2_dumper {
             // MParticleCustomFieldDefaultValue
             namespace CParticleFloatInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleFloatType_t
-                constexpr std::ptrdiff_t m_nMapType = 0x14; // ParticleFloatMapType_t
+                constexpr std::ptrdiff_t m_nMapType = 0x14; // 
                 constexpr std::ptrdiff_t m_flLiteralValue = 0x18; // float32
                 constexpr std::ptrdiff_t m_NamedValue = 0x20; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x60; // int32
