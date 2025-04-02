@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 02:26:56.357514500 UTC
+// 2025-04-02 02:26:26.250115 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1380,7 +1380,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_INIT_RemapParticleCountToNamedModelElementScalar {
-                pub const m_hModel: usize = 0x1F8; // 
+                pub const m_hModel: usize = 0x1F8; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_outputMinName: usize = 0x200; // CUtlString
                 pub const m_outputMaxName: usize = 0x208; // CUtlString
                 pub const m_bModelFromRenderer: usize = 0x210; // bool
@@ -1443,7 +1443,7 @@ pub mod cs2_dumper {
             pub mod C_INIT_RandomModelSequence {
                 pub const m_ActivityName: usize = 0x1C8; // char[256]
                 pub const m_SequenceName: usize = 0x2C8; // char[256]
-                pub const m_hModel: usize = 0x3C8; // 
+                pub const m_hModel: usize = 0x3C8; // CStrongHandle<InfoForResourceTypeCModel>
             }
             // Parent: CParticleVecInput
             // Field count: 0
@@ -1787,7 +1787,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_INIT_RandomNamedModelElement {
-                pub const m_hModel: usize = 0x1C8; // 
+                pub const m_hModel: usize = 0x1C8; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_names: usize = 0x1D0; // CUtlVector<CUtlString>
                 pub const m_bShuffle: usize = 0x1E8; // bool
                 pub const m_bLinear: usize = 0x1E9; // bool
@@ -2219,7 +2219,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderSimpleModelCollection {
                 pub const m_bCenterOffset: usize = 0x210; // bool
-                pub const m_hModel: usize = 0x218; // 
+                pub const m_hModel: usize = 0x218; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_modelInput: usize = 0x220; // CParticleModelInput
                 pub const m_fSizeCullScale: usize = 0x280; // CParticleCollectionFloatInput
                 pub const m_bDisableShadows: usize = 0x3E0; // bool
@@ -2638,7 +2638,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RemapNamedModelElementOnceTimed {
-                pub const m_hModel: usize = 0x1C0; // 
+                pub const m_hModel: usize = 0x1C0; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_inNames: usize = 0x1C8; // CUtlVector<CUtlString>
                 pub const m_outNames: usize = 0x1E0; // CUtlVector<CUtlString>
                 pub const m_fallbackNames: usize = 0x1F8; // CUtlVector<CUtlString>
@@ -3962,7 +3962,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_LockToPointList {
                 pub const m_nFieldOutput: usize = 0x1C0; // ParticleAttributeIndex_t
-                pub const m_pointList: usize = 0x1C8; // CUtlVector<PointDefinition_t>
+                pub const m_pointList: usize = 0x1C8; // 
                 pub const m_bPlaceAlongPath: usize = 0x1E0; // bool
                 pub const m_bClosedLoop: usize = 0x1E1; // bool
                 pub const m_nNumPointsAlongPath: usize = 0x1E4; // int32
@@ -5200,7 +5200,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_INIT_RemapNamedModelElementToScalar {
-                pub const m_hModel: usize = 0x1C8; // 
+                pub const m_hModel: usize = 0x1C8; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_names: usize = 0x1D0; // CUtlVector<CUtlString>
                 pub const m_values: usize = 0x1E8; // CUtlVector<float32>
                 pub const m_nFieldInput: usize = 0x200; // ParticleAttributeIndex_t
@@ -5737,7 +5737,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod ModelReference_t {
-                pub const m_model: usize = 0x0; // 
+                pub const m_model: usize = 0x0; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_flRelativeProbabilityOfSpawn: usize = 0x8; // float32
             }
             // Parent: CParticleFunctionConstraint
@@ -5808,7 +5808,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RemapNamedModelElementEndCap {
-                pub const m_hModel: usize = 0x1C0; // 
+                pub const m_hModel: usize = 0x1C0; // CStrongHandle<InfoForResourceTypeCModel>
                 pub const m_inNames: usize = 0x1C8; // CUtlVector<CUtlString>
                 pub const m_outNames: usize = 0x1E0; // CUtlVector<CUtlString>
                 pub const m_fallbackNames: usize = 0x1F8; // CUtlVector<CUtlString>
@@ -5902,7 +5902,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_INIT_PointList {
                 pub const m_nFieldOutput: usize = 0x1C8; // ParticleAttributeIndex_t
-                pub const m_pointList: usize = 0x1D0; // CUtlVector<PointDefinition_t>
+                pub const m_pointList: usize = 0x1D0; // 
                 pub const m_bPlaceAlongPath: usize = 0x1E8; // bool
                 pub const m_bClosedLoop: usize = 0x1E9; // bool
                 pub const m_nNumPointsAlongPath: usize = 0x1EC; // int32

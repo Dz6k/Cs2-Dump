@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 02:26:56.357514500 UTC
+// 2025-04-02 02:26:26.250115 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -244,7 +244,7 @@ pub mod cs2_dumper {
                 pub const nNode: usize = 0x0; // uint16[2]
                 pub const nCollisionMask: usize = 0x4; // uint16
                 pub const nDummy: usize = 0x6; // uint16
-                pub const flRadius: usize = 0x8; // float32[2]
+                pub const flRadius: usize = 0x8; // 
             }
             // Parent: None
             // Field count: 4
@@ -1076,7 +1076,7 @@ pub mod cs2_dumper {
                 pub const strength: usize = 0x0; // float32
                 pub const forceLimit: usize = 0x4; // float32
                 pub const torqueLimit: usize = 0x8; // float32
-                pub const bodyMassScale: usize = 0xC; // float32[2]
+                pub const bodyMassScale: usize = 0xC; // 
                 pub const isActive: usize = 0x14; // bool
             }
             // Parent: None

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 02:26:56.357514500 UTC
+// 2025-04-02 02:26:26.250115 UTC
 
 #pragma once
 
@@ -221,8 +221,8 @@ namespace cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             namespace CPulseCell_Test_MultiOutflow_WithParams {
-                constexpr std::ptrdiff_t m_Out1 = 0x48; // SignatureOutflow_Continue
-                constexpr std::ptrdiff_t m_Out2 = 0x78; // SignatureOutflow_Continue
+                constexpr std::ptrdiff_t m_Out1 = 0x48; // 
+                constexpr std::ptrdiff_t m_Out2 = 0x78; // 
             }
             // Parent: None
             // Field count: 1
@@ -690,7 +690,7 @@ namespace cs2_dumper {
             namespace CPulseGraphExecutionHistory {
                 constexpr std::ptrdiff_t m_nInstanceID = 0x0; // PulseGraphInstanceID_t
                 constexpr std::ptrdiff_t m_strFileName = 0x8; // CUtlString
-                constexpr std::ptrdiff_t m_vecHistory = 0x10; // 
+                constexpr std::ptrdiff_t m_vecHistory = 0x10; // CUtlVector<PulseGraphExecutionHistoryEntry_t*>
                 constexpr std::ptrdiff_t m_mapCellDesc = 0x28; // CUtlOrderedMap<PulseDocNodeID_t,PulseGraphExecutionHistoryNodeDesc_t*>
                 constexpr std::ptrdiff_t m_mapCursorDesc = 0x50; // CUtlOrderedMap<PulseCursorID_t,PulseGraphExecutionHistoryCursorDesc_t*>
             }
@@ -913,9 +913,9 @@ namespace cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             namespace CPulseCell_Test_MultiOutflow_WithParams_Yielding {
-                constexpr std::ptrdiff_t m_Out1 = 0x48; // SignatureOutflow_Continue
-                constexpr std::ptrdiff_t m_AsyncChild1 = 0x78; // SignatureOutflow_Continue
-                constexpr std::ptrdiff_t m_AsyncChild2 = 0xA8; // SignatureOutflow_Continue
+                constexpr std::ptrdiff_t m_Out1 = 0x48; // 
+                constexpr std::ptrdiff_t m_AsyncChild1 = 0x78; // 
+                constexpr std::ptrdiff_t m_AsyncChild2 = 0xA8; // 
                 constexpr std::ptrdiff_t m_YieldResume1 = 0xD8; // SignatureOutflow_Resume
                 constexpr std::ptrdiff_t m_YieldResume2 = 0x108; // SignatureOutflow_Resume
             }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 02:26:56.357514500 UTC
+// 2025-04-02 02:26:26.250115 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -183,7 +183,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod PostProcessingBloomParameters_t {
-                pub const m_blendMode: usize = 0x0; // 
+                pub const m_blendMode: usize = 0x0; // BloomBlendMode_t
                 pub const m_flBloomStrength: usize = 0x4; // float32
                 pub const m_flScreenBloomStrength: usize = 0x8; // float32
                 pub const m_flBlurBloomStrength: usize = 0xC; // float32
