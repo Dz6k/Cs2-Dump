@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 02:26:26.250115 UTC
+// 2025-04-21 23:54:55.194884700 UTC
 
 #pragma once
 
@@ -171,12 +171,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
                 constexpr std::ptrdiff_t m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
                 constexpr std::ptrdiff_t m_MorphSetData = 0x578; // CUtlVector<uint8>
-                constexpr std::ptrdiff_t m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
+                constexpr std::ptrdiff_t m_VertexMaps = 0x590; // 
                 constexpr std::ptrdiff_t m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
-                constexpr std::ptrdiff_t m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
+                constexpr std::ptrdiff_t m_Effects = 0x5C0; // 
                 constexpr std::ptrdiff_t m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
                 constexpr std::ptrdiff_t m_LockToGoal = 0x5F0; // CUtlVector<uint16>
-                constexpr std::ptrdiff_t m_SkelParents = 0x608; // CUtlVector<int16>
+                constexpr std::ptrdiff_t m_SkelParents = 0x608; // 
                 constexpr std::ptrdiff_t m_DynNodeWindBases = 0x620; // CUtlVector<FeNodeWindBase_t>
                 constexpr std::ptrdiff_t m_flInternalPressure = 0x638; // float32
                 constexpr std::ptrdiff_t m_flDefaultTimeDilation = 0x63C; // float32
@@ -244,7 +244,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
                 constexpr std::ptrdiff_t nCollisionMask = 0x4; // uint16
                 constexpr std::ptrdiff_t nDummy = 0x6; // uint16
-                constexpr std::ptrdiff_t flRadius = 0x8; // 
+                constexpr std::ptrdiff_t flRadius = 0x8; // float32[2]
             }
             // Parent: None
             // Field count: 4
@@ -533,7 +533,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace FeTaperedCapsuleRigid_t {
-                constexpr std::ptrdiff_t vSphere = 0x0; // fltx4[2]
+                constexpr std::ptrdiff_t vSphere = 0x0; // 
                 constexpr std::ptrdiff_t nNode = 0x20; // uint16
                 constexpr std::ptrdiff_t nCollisionMask = 0x22; // uint16
                 constexpr std::ptrdiff_t nVertexMapIndex = 0x24; // uint16
@@ -1076,7 +1076,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t strength = 0x0; // float32
                 constexpr std::ptrdiff_t forceLimit = 0x4; // float32
                 constexpr std::ptrdiff_t torqueLimit = 0x8; // float32
-                constexpr std::ptrdiff_t bodyMassScale = 0xC; // 
+                constexpr std::ptrdiff_t bodyMassScale = 0xC; // float32[2]
                 constexpr std::ptrdiff_t isActive = 0x14; // bool
             }
             // Parent: None

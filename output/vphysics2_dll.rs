@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 02:26:26.250115 UTC
+// 2025-04-21 23:54:55.194884700 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -171,12 +171,12 @@ pub mod cs2_dumper {
                 pub const m_RigidColliderPriorities: usize = 0x548; // CUtlVector<FeRigidColliderIndices_t>
                 pub const m_MorphLayers: usize = 0x560; // CUtlVector<FeMorphLayerDepr_t>
                 pub const m_MorphSetData: usize = 0x578; // CUtlVector<uint8>
-                pub const m_VertexMaps: usize = 0x590; // CUtlVector<FeVertexMapDesc_t>
+                pub const m_VertexMaps: usize = 0x590; // 
                 pub const m_VertexMapValues: usize = 0x5A8; // CUtlVector<uint8>
-                pub const m_Effects: usize = 0x5C0; // CUtlVector<FeEffectDesc_t>
+                pub const m_Effects: usize = 0x5C0; // 
                 pub const m_LockToParent: usize = 0x5D8; // CUtlVector<FeCtrlOffset_t>
                 pub const m_LockToGoal: usize = 0x5F0; // CUtlVector<uint16>
-                pub const m_SkelParents: usize = 0x608; // CUtlVector<int16>
+                pub const m_SkelParents: usize = 0x608; // 
                 pub const m_DynNodeWindBases: usize = 0x620; // CUtlVector<FeNodeWindBase_t>
                 pub const m_flInternalPressure: usize = 0x638; // float32
                 pub const m_flDefaultTimeDilation: usize = 0x63C; // float32
@@ -244,7 +244,7 @@ pub mod cs2_dumper {
                 pub const nNode: usize = 0x0; // uint16[2]
                 pub const nCollisionMask: usize = 0x4; // uint16
                 pub const nDummy: usize = 0x6; // uint16
-                pub const flRadius: usize = 0x8; // 
+                pub const flRadius: usize = 0x8; // float32[2]
             }
             // Parent: None
             // Field count: 4
@@ -533,7 +533,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod FeTaperedCapsuleRigid_t {
-                pub const vSphere: usize = 0x0; // fltx4[2]
+                pub const vSphere: usize = 0x0; // 
                 pub const nNode: usize = 0x20; // uint16
                 pub const nCollisionMask: usize = 0x22; // uint16
                 pub const nVertexMapIndex: usize = 0x24; // uint16
@@ -1076,7 +1076,7 @@ pub mod cs2_dumper {
                 pub const strength: usize = 0x0; // float32
                 pub const forceLimit: usize = 0x4; // float32
                 pub const torqueLimit: usize = 0x8; // float32
-                pub const bodyMassScale: usize = 0xC; // 
+                pub const bodyMassScale: usize = 0xC; // float32[2]
                 pub const isActive: usize = 0x14; // bool
             }
             // Parent: None

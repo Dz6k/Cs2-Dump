@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 02:26:26.250115 UTC
+// 2025-04-21 23:54:55.194884700 UTC
 
 #pragma once
 
@@ -453,8 +453,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nLastAddDecal = 0xAAC; // int32
                 constexpr std::ptrdiff_t m_nDecalsAdded = 0xAB0; // int32
                 constexpr std::ptrdiff_t m_iOldHealth = 0xAB4; // int32
-                constexpr std::ptrdiff_t m_nRenderMode = 0xAB8; // RenderMode_t
-                constexpr std::ptrdiff_t m_nRenderFX = 0xAB9; // RenderFx_t
+                constexpr std::ptrdiff_t m_nRenderMode = 0xAB8; // 
+                constexpr std::ptrdiff_t m_nRenderFX = 0xAB9; // 
                 constexpr std::ptrdiff_t m_bAllowFadeInView = 0xABA; // bool
                 constexpr std::ptrdiff_t m_clrRender = 0xAD8; // Color
                 constexpr std::ptrdiff_t m_vecRenderAttributes = 0xAE0; // C_UtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
@@ -861,7 +861,7 @@ namespace cs2_dumper {
             // NetworkVarNames: m_hOwner (CEntityHandle)
             // NetworkVarNames: m_name (CUtlStringToken)
             namespace CGameSceneNodeHandle {
-                constexpr std::ptrdiff_t m_hOwner = 0x8; // 
+                constexpr std::ptrdiff_t m_hOwner = 0x8; // CEntityHandle
                 constexpr std::ptrdiff_t m_name = 0xC; // CUtlStringToken
             }
             // Parent: None
@@ -1209,8 +1209,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_pHostageServices = 0x1520; // CCSPlayer_HostageServices*
                 constexpr std::ptrdiff_t m_pBuyServices = 0x1528; // CCSPlayer_BuyServices*
                 constexpr std::ptrdiff_t m_pGlowServices = 0x1530; // CCSPlayer_GlowServices*
-                constexpr std::ptrdiff_t m_pActionTrackingServices = 0x1538; // CCSPlayer_ActionTrackingServices*
-                constexpr std::ptrdiff_t m_pDamageReactServices = 0x1540; // CCSPlayer_DamageReactServices*
+                constexpr std::ptrdiff_t m_pActionTrackingServices = 0x1538; // 
+                constexpr std::ptrdiff_t m_pDamageReactServices = 0x1540; // 
                 constexpr std::ptrdiff_t m_flHealthShotBoostExpirationTime = 0x1548; // GameTime_t
                 constexpr std::ptrdiff_t m_flLastFiredWeaponTime = 0x154C; // GameTime_t
                 constexpr std::ptrdiff_t m_bHasFemaleVoice = 0x1550; // bool
@@ -1352,7 +1352,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nSnapshotTrajectoryEffectIndex = 0x11C0; // ParticleIndex_t
                 constexpr std::ptrdiff_t m_hSnapshotTrajectoryParticleSnapshot = 0x11C8; // CStrongHandle<InfoForResourceTypeIParticleSnapshot>
                 constexpr std::ptrdiff_t m_arrTrajectoryTrailPoints = 0x11D0; // CUtlVector<Vector>
-                constexpr std::ptrdiff_t m_arrTrajectoryTrailPointCreationTimes = 0x11E8; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_arrTrajectoryTrailPointCreationTimes = 0x11E8; // 
                 constexpr std::ptrdiff_t m_flTrajectoryTrailEffectCreationTime = 0x1200; // float32
             }
             // Parent: C_BaseToggle
@@ -1406,8 +1406,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vStart = 0x14; // Vector
                 constexpr std::ptrdiff_t m_vNormal = 0x20; // Vector
                 constexpr std::ptrdiff_t m_vAngles = 0x2C; // QAngle
-                constexpr std::ptrdiff_t m_hEntity = 0x38; // 
-                constexpr std::ptrdiff_t m_hOtherEntity = 0x3C; // 
+                constexpr std::ptrdiff_t m_hEntity = 0x38; // CEntityHandle
+                constexpr std::ptrdiff_t m_hOtherEntity = 0x3C; // CEntityHandle
                 constexpr std::ptrdiff_t m_flScale = 0x40; // float32
                 constexpr std::ptrdiff_t m_flMagnitude = 0x44; // float32
                 constexpr std::ptrdiff_t m_flRadius = 0x48; // float32
@@ -2553,7 +2553,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flNextSecondaryAttackTickRatio = 0x1674; // float32
                 constexpr std::ptrdiff_t m_iClip1 = 0x1678; // int32
                 constexpr std::ptrdiff_t m_iClip2 = 0x167C; // int32
-                constexpr std::ptrdiff_t m_pReserveAmmo = 0x1680; // 
+                constexpr std::ptrdiff_t m_pReserveAmmo = 0x1680; // int32[2]
             }
             // Parent: CEntitySubclassVDataBase
             // Field count: 22
@@ -2689,8 +2689,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_pWaterServices = 0x11C8; // CPlayer_WaterServices*
                 constexpr std::ptrdiff_t m_pUseServices = 0x11D0; // CPlayer_UseServices*
                 constexpr std::ptrdiff_t m_pFlashlightServices = 0x11D8; // CPlayer_FlashlightServices*
-                constexpr std::ptrdiff_t m_pCameraServices = 0x11E0; // 
-                constexpr std::ptrdiff_t m_pMovementServices = 0x11E8; // 
+                constexpr std::ptrdiff_t m_pCameraServices = 0x11E0; // CPlayer_CameraServices*
+                constexpr std::ptrdiff_t m_pMovementServices = 0x11E8; // CPlayer_MovementServices*
                 constexpr std::ptrdiff_t m_ServerViewAngleChanges = 0x11F8; // C_UtlVectorEmbeddedNetworkVar<ViewAngleServerChange_t>
                 constexpr std::ptrdiff_t m_nHighestConsumedServerViewAngleChangeIndex = 0x1248; // uint32
                 constexpr std::ptrdiff_t v_angle = 0x124C; // QAngle
@@ -3431,7 +3431,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bNoRamp = 0x107E; // bool
                 constexpr std::ptrdiff_t m_bStartActive = 0x107F; // bool
                 constexpr std::ptrdiff_t m_iszEffectName = 0x1080; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_iszControlPointNames = 0x1088; // CUtlSymbolLarge[64]
+                constexpr std::ptrdiff_t m_iszControlPointNames = 0x1088; // 
                 constexpr std::ptrdiff_t m_nDataCP = 0x1288; // int32
                 constexpr std::ptrdiff_t m_vecDataCPValue = 0x128C; // Vector
                 constexpr std::ptrdiff_t m_nTintCP = 0x1298; // int32
@@ -3468,7 +3468,7 @@ namespace cs2_dumper {
             namespace CPlayer_ObserverServices {
                 constexpr std::ptrdiff_t m_iObserverMode = 0x40; // uint8
                 constexpr std::ptrdiff_t m_hObserverTarget = 0x44; // CHandle<C_BaseEntity>
-                constexpr std::ptrdiff_t m_iObserverLastMode = 0x48; // 
+                constexpr std::ptrdiff_t m_iObserverLastMode = 0x48; // ObserverMode_t
                 constexpr std::ptrdiff_t m_bForcedObserverMode = 0x4C; // bool
                 constexpr std::ptrdiff_t m_flObserverChaseDistance = 0x50; // float32
                 constexpr std::ptrdiff_t m_flObserverChaseDistanceCalcTime = 0x54; // GameTime_t
@@ -3925,8 +3925,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_unOverrideStyle = 0x1FD; // uint8
                 constexpr std::ptrdiff_t m_AttributeList = 0x210; // CAttributeList
                 constexpr std::ptrdiff_t m_NetworkedDynamicAttributes = 0x270; // CAttributeList
-                constexpr std::ptrdiff_t m_szCustomName = 0x2D0; // char[161]
-                constexpr std::ptrdiff_t m_szCustomNameOverride = 0x371; // char[161]
+                constexpr std::ptrdiff_t m_szCustomName = 0x2D0; // 
+                constexpr std::ptrdiff_t m_szCustomNameOverride = 0x371; // 
                 constexpr std::ptrdiff_t m_bInitializedTags = 0x440; // bool
             }
             // Parent: C_BaseEntity
@@ -4009,11 +4009,11 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CBasePlayerVData {
                 constexpr std::ptrdiff_t m_sModelName = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeCModel>>
-                constexpr std::ptrdiff_t m_flHeadDamageMultiplier = 0x108; // 
-                constexpr std::ptrdiff_t m_flChestDamageMultiplier = 0x118; // 
-                constexpr std::ptrdiff_t m_flStomachDamageMultiplier = 0x128; // 
-                constexpr std::ptrdiff_t m_flArmDamageMultiplier = 0x138; // 
-                constexpr std::ptrdiff_t m_flLegDamageMultiplier = 0x148; // 
+                constexpr std::ptrdiff_t m_flHeadDamageMultiplier = 0x108; // CSkillFloat
+                constexpr std::ptrdiff_t m_flChestDamageMultiplier = 0x118; // CSkillFloat
+                constexpr std::ptrdiff_t m_flStomachDamageMultiplier = 0x128; // CSkillFloat
+                constexpr std::ptrdiff_t m_flArmDamageMultiplier = 0x138; // CSkillFloat
+                constexpr std::ptrdiff_t m_flLegDamageMultiplier = 0x148; // CSkillFloat
                 constexpr std::ptrdiff_t m_flHoldBreathTime = 0x158; // float32
                 constexpr std::ptrdiff_t m_flDrowningDamageInterval = 0x15C; // float32
                 constexpr std::ptrdiff_t m_nDrowningDamageInitial = 0x160; // int32
@@ -4090,7 +4090,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_onSoundFinished = 0x5B0; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_flClientCullRadius = 0x5D8; // float32
                 constexpr std::ptrdiff_t m_iszSoundName = 0x608; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_hSource = 0x618; // 
+                constexpr std::ptrdiff_t m_hSource = 0x618; // CEntityHandle
                 constexpr std::ptrdiff_t m_nEntityIndexSelection = 0x61C; // int32
                 constexpr std::ptrdiff_t m_bClientSideOnly = 0x0; // bitfield:1
             }
@@ -4630,10 +4630,10 @@ namespace cs2_dumper {
             namespace CBuoyancyHelper {
                 constexpr std::ptrdiff_t m_nFluidType = 0x18; // CUtlStringToken
                 constexpr std::ptrdiff_t m_flFluidDensity = 0x1C; // float32
-                constexpr std::ptrdiff_t m_vecFractionOfWheelSubmergedForWheelFriction = 0x20; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecWheelFrictionScales = 0x38; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecFractionOfWheelSubmergedForWheelDrag = 0x50; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecWheelDrag = 0x68; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecFractionOfWheelSubmergedForWheelFriction = 0x20; // 
+                constexpr std::ptrdiff_t m_vecWheelFrictionScales = 0x38; // 
+                constexpr std::ptrdiff_t m_vecFractionOfWheelSubmergedForWheelDrag = 0x50; // 
+                constexpr std::ptrdiff_t m_vecWheelDrag = 0x68; // 
             }
             // Parent: C_BaseModelEntity
             // Field count: 4
@@ -5119,7 +5119,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecMins = 0x40; // Vector
                 constexpr std::ptrdiff_t m_vecMaxs = 0x4C; // Vector
                 constexpr std::ptrdiff_t m_usSolidFlags = 0x5A; // uint8
-                constexpr std::ptrdiff_t m_nSolidType = 0x5B; // SolidType_t
+                constexpr std::ptrdiff_t m_nSolidType = 0x5B; // 
                 constexpr std::ptrdiff_t m_triggerBloat = 0x5C; // uint8
                 constexpr std::ptrdiff_t m_nSurroundType = 0x5D; // SurroundingBoundsType_t
                 constexpr std::ptrdiff_t m_CollisionGroup = 0x5E; // uint8
@@ -5459,7 +5459,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nCost = 0x34; // int32
                 constexpr std::ptrdiff_t m_nPrevArmor = 0x38; // int32
                 constexpr std::ptrdiff_t m_bPrevHelmet = 0x3C; // bool
-                constexpr std::ptrdiff_t m_hItem = 0x40; // 
+                constexpr std::ptrdiff_t m_hItem = 0x40; // CEntityHandle
             }
             // Parent: C_GameRules
             // Field count: 0
@@ -5602,7 +5602,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_seqIdle = 0x16F0; // HSequence
                 constexpr std::ptrdiff_t m_seqFirePrimary = 0x16F4; // HSequence
                 constexpr std::ptrdiff_t m_seqFireSecondary = 0x16F8; // HSequence
-                constexpr std::ptrdiff_t m_thirdPersonFireSequences = 0x1700; // 
+                constexpr std::ptrdiff_t m_thirdPersonFireSequences = 0x1700; // CUtlVector<HSequence>
                 constexpr std::ptrdiff_t m_hCurrentThirdPersonSequence = 0x1718; // HSequence
                 constexpr std::ptrdiff_t m_nSilencerBoneIndex = 0x171C; // int32
                 constexpr std::ptrdiff_t m_thirdPersonSequences = 0x1720; // HSequence[7]
@@ -5790,7 +5790,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bHasSuccessfullyInterpolated = 0x3B5; // bool
                 constexpr std::ptrdiff_t m_bHasAddedVarsToInterpolation = 0x3B6; // bool
                 constexpr std::ptrdiff_t m_bRenderEvenWhenNotSuccessfullyInterpolated = 0x3B7; // bool
-                constexpr std::ptrdiff_t m_nInterpolationLatchDirtyFlags = 0x3B8; // 
+                constexpr std::ptrdiff_t m_nInterpolationLatchDirtyFlags = 0x3B8; // int32[2]
                 constexpr std::ptrdiff_t m_ListEntry = 0x3C0; // uint16[11]
                 constexpr std::ptrdiff_t m_flCreateTime = 0x3D8; // GameTime_t
                 constexpr std::ptrdiff_t m_flSpeed = 0x3DC; // float32
@@ -5827,7 +5827,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nLastPredictableCommand = 0x48C; // int32
                 constexpr std::ptrdiff_t m_hOldMoveParent = 0x490; // CHandle<C_BaseEntity>
                 constexpr std::ptrdiff_t m_Particles = 0x498; // CParticleProperty
-                constexpr std::ptrdiff_t m_vecPredictedScriptFloats = 0x4C0; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecPredictedScriptFloats = 0x4C0; // 
                 constexpr std::ptrdiff_t m_vecPredictedScriptFloatIDs = 0x4D8; // CUtlVector<int32>
                 constexpr std::ptrdiff_t m_nNextScriptVarRecordID = 0x508; // int32
                 constexpr std::ptrdiff_t m_vecAngVelocity = 0x518; // QAngle
@@ -6163,7 +6163,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flBackgroundWorldToUV = 0xFE4; // float32
                 constexpr std::ptrdiff_t m_Color = 0xFE8; // Color
                 constexpr std::ptrdiff_t m_nJustifyHorizontal = 0xFEC; // PointWorldTextJustifyHorizontal_t
-                constexpr std::ptrdiff_t m_nJustifyVertical = 0xFF0; // PointWorldTextJustifyVertical_t
+                constexpr std::ptrdiff_t m_nJustifyVertical = 0xFF0; // 
                 constexpr std::ptrdiff_t m_nReorientMode = 0xFF4; // PointWorldTextReorientMode_t
             }
             // Parent: CBasePlayerController
@@ -6580,7 +6580,7 @@ namespace cs2_dumper {
             // MNetworkVarTypeOverride
             // MNetworkIncludeByName
             namespace C_CSObserverPawn {
-                constexpr std::ptrdiff_t m_hDetectParentChange = 0x1510; // 
+                constexpr std::ptrdiff_t m_hDetectParentChange = 0x1510; // CEntityHandle
             }
             // Parent: C_BaseEntity
             // Field count: 3
@@ -6600,7 +6600,7 @@ namespace cs2_dumper {
             // Parent: CPlayer_ObserverServices
             // Field count: 8
             namespace CCSObserver_ObserverServices {
-                constexpr std::ptrdiff_t m_hLastObserverTarget = 0x58; // 
+                constexpr std::ptrdiff_t m_hLastObserverTarget = 0x58; // CEntityHandle
                 constexpr std::ptrdiff_t m_vecObserverInterpolateOffset = 0x5C; // Vector
                 constexpr std::ptrdiff_t m_vecObserverInterpStartPos = 0x68; // Vector
                 constexpr std::ptrdiff_t m_flObsInterp_PathLength = 0x74; // float32
@@ -6661,7 +6661,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_isInit = 0x1260; // bool
                 constexpr std::ptrdiff_t m_eyeAttachment = 0x1261; // AttachmentHandle_t
                 constexpr std::ptrdiff_t m_chestAttachment = 0x1262; // AttachmentHandle_t
-                constexpr std::ptrdiff_t m_pPredictionOwner = 0x1268; // 
+                constexpr std::ptrdiff_t m_pPredictionOwner = 0x1268; // CBasePlayerController*
                 constexpr std::ptrdiff_t m_fNewestAlphaThinkTime = 0x1270; // GameTime_t
             }
             // Parent: C_BaseModelEntity
@@ -6769,7 +6769,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bRadarFlash = 0x14A0; // bool
                 constexpr std::ptrdiff_t m_pBombDefuser = 0x14A4; // CHandle<C_CSPlayerPawn>
                 constexpr std::ptrdiff_t m_fLastDefuseTime = 0x14A8; // GameTime_t
-                constexpr std::ptrdiff_t m_pPredictionOwner = 0x14B0; // 
+                constexpr std::ptrdiff_t m_pPredictionOwner = 0x14B0; // CBasePlayerController*
                 constexpr std::ptrdiff_t m_vecC4ExplodeSpectatePos = 0x14B8; // Vector
                 constexpr std::ptrdiff_t m_vecC4ExplodeSpectateAng = 0x14C4; // QAngle
                 constexpr std::ptrdiff_t m_flC4ExplodeSpectateDuration = 0x14D0; // float32
@@ -6822,7 +6822,7 @@ namespace cs2_dumper {
             // NetworkVarNames: qAngle (QAngle)
             // NetworkVarNames: nIndex (uint32)
             namespace ViewAngleServerChange_t {
-                constexpr std::ptrdiff_t nType = 0x30; // 
+                constexpr std::ptrdiff_t nType = 0x30; // FixAngleSet_t
                 constexpr std::ptrdiff_t qAngle = 0x34; // QAngle
                 constexpr std::ptrdiff_t nIndex = 0x40; // uint32
             }
