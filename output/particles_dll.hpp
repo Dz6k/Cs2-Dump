@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-21 23:54:55.194884700 UTC
+// 2025-05-08 14:12:23.938337200 UTC
 
 #pragma once
 
@@ -857,7 +857,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flScalarAttributeTextureCoordScale = 0x2F1C; // float32
                 constexpr std::ptrdiff_t m_bReverseOrder = 0x2F20; // bool
                 constexpr std::ptrdiff_t m_bClosedLoop = 0x2F21; // bool
-                constexpr std::ptrdiff_t m_nOrientationType = 0x2F24; // 
+                constexpr std::ptrdiff_t m_nOrientationType = 0x2F24; // ParticleOrientationChoiceList_t
                 constexpr std::ptrdiff_t m_nVectorFieldForOrientation = 0x2F28; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_bDrawAsOpaque = 0x2F2C; // bool
                 constexpr std::ptrdiff_t m_bGenerateNormals = 0x2F2D; // bool
@@ -1226,7 +1226,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flDiffuseClamp = 0x1530; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_nLightingControlPoint = 0x1690; // int32
                 constexpr std::ptrdiff_t m_nSelfIllumPerParticle = 0x1694; // ParticleAttributeIndex_t
-                constexpr std::ptrdiff_t m_nOutputBlendMode = 0x1698; // 
+                constexpr std::ptrdiff_t m_nOutputBlendMode = 0x1698; // ParticleOutputBlendMode_t
                 constexpr std::ptrdiff_t m_bGammaCorrectVertexColors = 0x169C; // bool
                 constexpr std::ptrdiff_t m_bSaturateColorPreAlphaBlend = 0x169D; // bool
                 constexpr std::ptrdiff_t m_flAddSelfAmount = 0x16A0; // CParticleCollectionRendererFloatInput
@@ -1239,7 +1239,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bTintByGlobalLight = 0x1C29; // bool
                 constexpr std::ptrdiff_t m_nPerParticleAlphaReference = 0x1C2C; // SpriteCardPerParticleScale_t
                 constexpr std::ptrdiff_t m_nPerParticleAlphaRefWindow = 0x1C30; // SpriteCardPerParticleScale_t
-                constexpr std::ptrdiff_t m_nAlphaReferenceType = 0x1C34; // 
+                constexpr std::ptrdiff_t m_nAlphaReferenceType = 0x1C34; // ParticleAlphaReferenceType_t
                 constexpr std::ptrdiff_t m_flAlphaReferenceSoftness = 0x1C38; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_flSourceAlphaValueToMapToZero = 0x1D98; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_flSourceAlphaValueToMapToOne = 0x1EF8; // CParticleCollectionRendererFloatInput
@@ -2388,7 +2388,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CBaseTrailRenderer {
-                constexpr std::ptrdiff_t m_nOrientationType = 0x2AA8; // 
+                constexpr std::ptrdiff_t m_nOrientationType = 0x2AA8; // ParticleOrientationChoiceList_t
                 constexpr std::ptrdiff_t m_nOrientationControlPoint = 0x2AAC; // int32
                 constexpr std::ptrdiff_t m_flMinSize = 0x2AB0; // float32
                 constexpr std::ptrdiff_t m_flMaxSize = 0x2AB4; // float32
@@ -5806,7 +5806,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bNoiseImgPreviewLive = 0xD4; // bool
                 constexpr std::ptrdiff_t m_flNoCameraFallback = 0xE0; // float32
                 constexpr std::ptrdiff_t m_bUseBoundsCenter = 0xE4; // bool
-                constexpr std::ptrdiff_t m_nInputMode = 0xE8; // 
+                constexpr std::ptrdiff_t m_nInputMode = 0xE8; // ParticleFloatInputMode_t
                 constexpr std::ptrdiff_t m_flMultFactor = 0xEC; // float32
                 constexpr std::ptrdiff_t m_flInput0 = 0xF0; // float32
                 constexpr std::ptrdiff_t m_flInput1 = 0xF4; // float32
@@ -6416,7 +6416,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace C_OP_RenderSprites {
                 constexpr std::ptrdiff_t m_nSequenceOverride = 0x2AA8; // CParticleCollectionRendererFloatInput
-                constexpr std::ptrdiff_t m_nOrientationType = 0x2C08; // 
+                constexpr std::ptrdiff_t m_nOrientationType = 0x2C08; // ParticleOrientationChoiceList_t
                 constexpr std::ptrdiff_t m_nOrientationControlPoint = 0x2C0C; // int32
                 constexpr std::ptrdiff_t m_bUseYawWithNormalAligned = 0x2C10; // bool
                 constexpr std::ptrdiff_t m_flMinSize = 0x2C18; // CParticleCollectionRendererFloatInput

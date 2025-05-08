@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-21 23:54:55.194884700 UTC
+// 2025-05-08 14:12:23.938337200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -166,12 +166,12 @@ namespace CS2Dumper.Schemas {
             public const nint m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
             public const nint m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
             public const nint m_MorphSetData = 0x578; // CUtlVector<uint8>
-            public const nint m_VertexMaps = 0x590; // 
+            public const nint m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
             public const nint m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
-            public const nint m_Effects = 0x5C0; // 
+            public const nint m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
             public const nint m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
             public const nint m_LockToGoal = 0x5F0; // CUtlVector<uint16>
-            public const nint m_SkelParents = 0x608; // 
+            public const nint m_SkelParents = 0x608; // CUtlVector<int16>
             public const nint m_DynNodeWindBases = 0x620; // CUtlVector<FeNodeWindBase_t>
             public const nint m_flInternalPressure = 0x638; // float32
             public const nint m_flDefaultTimeDilation = 0x63C; // float32
@@ -528,7 +528,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class FeTaperedCapsuleRigid_t {
-            public const nint vSphere = 0x0; // 
+            public const nint vSphere = 0x0; // fltx4[2]
             public const nint nNode = 0x20; // uint16
             public const nint nCollisionMask = 0x22; // uint16
             public const nint nVertexMapIndex = 0x24; // uint16
